@@ -27,5 +27,11 @@ export default defineConfig({
 	},
 
 	// The output directory for your css system
-	outdir: 'src/styled-system'
+	outdir: 'src/styled-system',
+	importMap: {
+		css: 'src/styled-system',
+		recipes: 'src/styled-system',
+		patterns: 'src/styled-system',
+		jsx: 'src/styled-system'
+	}
 })
